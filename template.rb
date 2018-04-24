@@ -26,7 +26,7 @@ def add_template_repository_to_source_path
 end
 
 def add_gems
-  gem 'administrate', '~> 0.8.1'
+  gem 'administrate'
   gem 'data-confirm-modal', '~> 1.6.2'
   gem 'devise', '~> 4.4.3'
   gem 'devise-bootstrapped', github: 'excid3/devise-bootstrapped', branch: 'bootstrap4'
@@ -38,7 +38,7 @@ def add_gems
   gem 'mini_magick', '~> 4.8'
   gem 'webpacker', '~> 3.4'
   gem 'sidekiq', '~> 5.0'
-  gem 'foreman', '~> 0.84.0'
+  gem 'foreman'
   gem 'omniauth-facebook', '~> 4.0'
   gem 'omniauth-twitter', '~> 1.4'
   gem 'omniauth-github', '~> 1.3'
